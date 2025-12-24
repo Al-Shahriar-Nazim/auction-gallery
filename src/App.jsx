@@ -1,13 +1,15 @@
 
 import './App.css'
+import Hero from './assets/component/Hero/Hero'
+import Navbar from './assets/component/navbar/Navbar'
 
 function App() {
 
 
   return (
     <>
-      <h1>Vite + React</h1>
- 
+      <Navbar></Navbar> 
+      <Hero></Hero>
     </>
   )
 }
